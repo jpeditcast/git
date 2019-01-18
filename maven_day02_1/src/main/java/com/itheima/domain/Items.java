@@ -10,6 +10,10 @@ public class Items {
     private Date createtime;
     private String detail;
 
+    public Items(Integer id) {
+        this.id = id;
+    }
+
     public Integer getId() {
         return id;
     }
